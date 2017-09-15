@@ -11,7 +11,7 @@ PKG_RELEASE=1
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
-PKG_SOURCE_URL:=http://ftp.gnome.org/pub/gnome/sources/glib-networking/2.50/
+PKG_SOURCE_URL:=http://ftp.gnome.org/pub/gnome/sources/glib-networking/2.40/
 PKG_MD5SUM:=94a1ceb1dc50adcc29b1ebba919c87a1
 
 PKG_FIXUP:=autoreconf
