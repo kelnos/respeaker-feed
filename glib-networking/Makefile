@@ -21,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/glib-networking
   SECTION:=respeaker
   CATEGORY:=ReSpeaker
-  DEPENDS:=+glib2 +libintl-stub +libgnutls +libproxy
+  DEPENDS:=+glib2 +libintl +libgnutls +libproxy
   TITLE:=glib-networking
 endef
 
